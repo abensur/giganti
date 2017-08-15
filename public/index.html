@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="theme-color" content="#000000">
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<title>TODO</title>
+		<style>
+			html, body {
+				height: 100%;
+				box-sizing: border-box;
+				background: #ececec;
+			}
+			*, *::after, *::before {
+				box-sizing: inherit;
+			}
+			#root {
+				font-family: 'Avenir', Helvetica, Arial, sans-serif;
+				-webkit-font-smoothing: antialiased;
+				-moz-osx-font-smoothing: grayscale;
+				text-align: center;
+				color: #2c3e50;
+				margin-top: 60px;
+				background: #ececec;
+				height: 100%;
+			}
+			.todo-list {
+				display: flex;
+				flex-flow: row wrap;
+				padding: 1rem;
+				box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+				max-width: 480px;
+				margin: 0 auto;
+				background: #fff;
+			}
+			.todo-list h1 {
+				margin: 0;
+				text-align: center;
+				width: 100%;
+			}
+			.todo-list__form {
+				flex: 0 100%;
+				text-align: center;
+			}
+			.todo-list__ul {
+				flex: 0 480px;
+				margin: 0 auto;
+				text-align: left;
+			}
+			.todo-list__ul li {
+				cursor: pointer;
+			}
+			.todo-list > p {
+				flex: 0 100%;
+				margin: 0 auto;
+				text-align: center;
+			}
+			.todo-list__footer .active button{
+				font-weight: bold;
+			}
+		</style>
+  </head>
+  <body>
+    <noscript>
+      Necessário ativar seu JavaScript para rodar esse app.
+    </noscript>
+    <div id="root"></div>
+  </body>
+</html>
